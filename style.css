@@ -1,0 +1,37 @@
+body{
+    margin: 0em;
+    padding: 0em;
+    background-color: #d1ffe8;
+    font-family: 'Cedarville Cursive', cursive;
+    text-align: center;
+    
+}
+#sub{
+    width: 30%;
+}
+#brand{
+    font-size: 4em;
+    margin-bottom: 0em;
+    margin-top: 0em;
+}
+#tit{
+    margin-top: 0cm;
+}
+.diva{
+    width: 50%;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px; 
+}
+#message{
+    padding: 10%;
+}
+button{
+    font-family: 'Cedarville Cursive', cursive;
+    background-color: #a3ffe6 ;
+    border-radius: 10px;
+}
+
+#tag{
+    color: red;
+}
