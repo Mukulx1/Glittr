@@ -1,0 +1,102 @@
+body{
+    margin: 0em;
+    padding: 0em;
+    background-color: #d1ffe8;
+    font-family: 'Cedarville Cursive', cursive;
+    text-align: center;
+    
+}
+#sub{
+    width: 30%;
+}
+#message{
+    padding: 15px;
+}
+#brand{
+    font-size: 4em;
+    margin-bottom: 0em;
+    margin-top: 0em;
+}
+#tit{
+    margin-top: 0cm;
+}
+.diva{
+    width: 90%;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px; 
+    max-width: 15cm;
+}
+
+button{
+    font-family: 'Cedarville Cursive', cursive;
+    background-color: #a3ffe6 ;
+    border-radius: 10px;
+}
+
+#hehe{
+    padding-top: 20px;
+}
+
+.nave{
+    background-color: white;
+ }
+.nave a{
+    margin: 0.5cm;
+    text-decoration: none; 
+}
+
+.nave a.active{
+    color: greenyellow;
+}
+#astro{
+    width: 80%;
+}
+.haha{
+    font-family: 'Cedarville Cursive', cursive;
+    background-color: white ;
+    border-radius: 10px;
+    margin: 14px;
+    font-weight: bold;
+    width: 50%;
+    margin: 40px auto;
+}
+.king{
+    text-decoration: none;
+    color: black;
+}
+form{
+    width: 50%;
+    margin: auto;
+}
+input{
+    width: 100%;
+   margin: auto;
+}
+#mybox{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    display:  flex;
+    padding: 20px 0 0 0;
+    width: 40%;
+    text-align: right;
+}
+
+
+
+
+
+.helper{  
+    position: relative;
+    bottom: -17px;
+    color: black;
+    font-size: 10px;
+}
+.jobhi{
+    position: absolute;
+    width: 100%;
+    top:30%;
+}
+
