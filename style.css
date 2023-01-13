@@ -18,7 +18,7 @@ body{
     margin-top: 0cm;
 }
 .diva{
-    width: 50%;
+    width: 90%;
     background-color: white;
     margin: auto;
     border-radius: 10px; 
@@ -31,7 +31,40 @@ button{
     background-color: #a3ffe6 ;
     border-radius: 10px;
 }
+label{
+    display:  block;
+    padding: 20px;
+}
+#hehe{
+    padding-top: 20px;
+}
 
-#tag{
-    color: red;
+.nave{
+    background-color: white;
+ }
+.nave a{
+    margin: 0.5cm;
+    text-decoration: none; 
+}
+
+.nave a.active{
+    color: greenyellow;
+}
+.astro{
+    border: solid black 4px;
+}
+.haha{
+    font-family: 'Cedarville Cursive', cursive;
+    background-color: white ;
+    border-radius: 10px;
+    margin: 14px;
+    font-weight: bold;
+}
+.king{
+    text-decoration: none;
+    color: black;
+}
+form{
+    width: 50%;
+    margin: auto;
 }
