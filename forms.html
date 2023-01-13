@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>glittr : Forms</title>
+    <link rel="stylesheet" href="/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <a class="king" href="/index.html"><h1 id="brand">glittr</h1></a>
+    <p id="tit">
+      A mental health website 
+    </p>
+    <img id="sub" src="/images/flower.png" alt="" />
+
+    <div class="diva astro">
+      <h1 id="hehe">Form</h1>
+      <form action="" method="post" name="haha">
+        <label for="name">Name: <input type="text" name="Name" id="name" required></label>
+        <label for="email">Email: <input type="email" name="Email" id="email"></label>
+        <label for="phone">Phone: <input type="tel" name="Phone" id="phone" required></label>
+        
+        <input class="haha" type="submit" value="Done!!">
+      </form>
+    </div>
+
+
+    
+  </body>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyMGDmM25sn4acUPAe1Koig-eQnjZNc9ryMSXHZ6aa1P5SlDunfke2PoWtFJpK1AEn5pg/exec'
+    const form = document.forms['haha']
+    form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => alert("Thank you🌹 Your form is submitted successfully." ) )
+    .then(() => {  window.location.reload(); })
+    .catch(error => console.error('Error!', error.message))
+    })
+    </script>  
+</html>
