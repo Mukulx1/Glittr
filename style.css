@@ -11,6 +11,7 @@ body{
 }
 #message{
     padding: 15px;
+    Font: fantasy;
 }
 #brand{
     font-size: 4em;
